@@ -1,16 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Launcher</title>
-</head>
-<body>
-    <h1>Welcome to codingal...
-    Our motive is to make all the children fall in love for coding...</h1>
-    <p>Select a page to open:</p>
 
-    <ul>
-        <li><a href="acp/index.html">Open ACP Project</a></li>
-        <li><a href="activities/index.html">Open Activities</a></li>
-    </ul>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.12);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(8px);
+            max-width: 650px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 12px 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            background: white;
+            color: #2575fc;
+            padding: 12px 25px;
+            border-radius: 30px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: #2575fc;
+            color: white;
+            transform: scale(1.08);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Welcome to Codingal! <br>
+            Our motive is to make all the children fall in love with coding.
+        </h1>
+
+        <p>Select a page to open:</p>
+
+        <ul>
+            <li><a href="acp/index.html">Open ACP Project</a></li>
+            <li><a href="activities/index.html">Open Activities</a></li>
+        </ul>
+    </div>
 </body>
 </html>
